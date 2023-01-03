@@ -1,19 +1,12 @@
+#include "holberton.h"
+
 /**
- * File: 0-memset.c
- * Auth: Natnael Tewodros
- */
-
-#include "main.h"
-
-/*
  * _memset - Entry point
- * @s: pointer to memory area to fill with b
- * @b: value to fill memory area with
- * @n: number of bytes to fill with b
- *
- * Return: pointer to memory area s
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
+ * Return: Always 0 (Success)
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
