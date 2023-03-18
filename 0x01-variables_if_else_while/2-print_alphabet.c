@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-	char low;
+	char i = 97;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
-
+	while (i <= 122)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar("\n");
 	return (0);
 }
