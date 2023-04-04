@@ -1,26 +1,22 @@
 #include "main.h"
-/**
- * _strchr - function that locates a character in a string
- *@s: first value -char
- *@c: second value - char
- *
- * Return: char with result
- */
-char *_strchr(char *s, char c)
-{
+#include <stdio.h>
 
-	if (*s == '\0')
-		return (s);
-	while (*s)
-	{
-		if (*s == c)
-		{
-			return (s);
-		}
-	       s++;
-	}
-	if (c == '\0')
-		return (s);
-	return ('\0');
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char *s = "hello";
+    char *f;
+
+    f = _strchr(s, 'l');
+
+    if (f != NULL)
+    {
+        printf("%s\n", f);
+    }
+    return (0);
 }
 
