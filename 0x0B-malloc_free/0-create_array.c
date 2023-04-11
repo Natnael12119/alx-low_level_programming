@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *malloc_checked - allocate memory with malloc
+ * *create_array - allocate memory with malloc
  * @b: unsigned int type
  * Return: return pointer
  */
