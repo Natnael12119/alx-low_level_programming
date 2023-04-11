@@ -4,7 +4,8 @@
 
 /**
  * *create_array - allocate memory with malloc
- * @b: unsigned int type
+ * @size: size of array
+ * @c: char to assign
  * Return: return pointer
  */
 void *create_array(unsigned int size, char c)
