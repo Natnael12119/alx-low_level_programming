@@ -8,8 +8,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	signed int index = 0, num = 0;
-
+	unsigned int index = 0, num = 0;
 
 	if (!b)
 		return (0);
@@ -23,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 
 		num <<= 1;
 
-		if (b[index] & 1)
+		if (b[index] == '1')
 		{
 			num += 1;
 		}
