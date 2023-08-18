@@ -1,3 +1,5 @@
+#include "lists.h"
+
 /**
  * add_dnodeint - Adds a new node at the beginning of a doubly linked list.
  *
